@@ -1,0 +1,93 @@
+
+html
+{
+    box-sizing: border-box;
+}
+
+body
+{
+background-color: rgba(60, 179, 114, 0.283);
+}
+
+
+
+
+.panel
+{
+
+    border-radius: 5%;
+    padding: 1cm;
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.pricingplan
+{
+   
+    padding-bottom: 1cm;
+    margin-left: 1cm;
+    background-color: aliceblue;
+    margin-bottom: 0.5cm;
+    border:1px black solid;
+}
+
+.pricingplan:last-child
+{
+    border-bottom: none;
+}
+
+.pricingimg
+{
+    width: 300px;
+    height:250px;
+}
+
+.pricingheader
+{
+    color: #888;
+    font-weight: 600px;
+    letter-spacing: 1px;
+}
+
+.buttons
+{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.pricingbutton
+{
+    text-decoration: none;
+    padding: 15px 25px;
+    border:1px solid aquamarine;
+    background-color: rgba(0, 0, 255, 0.625);
+    color: aliceblue;
+}
+
+.pricingbutton:hover{
+    background-color: black;
+}
+
+#cart
+{
+    background-color:red;
+    color:white;
+    text-align: center;
+    position: absolute;
+    width: 25px;
+    height: 25px;;
+    top: 20px;
+    left: 1390px;
+    border-radius: 50%;
+}
+
+@media(min-width:900px)
+{
+    .panel
+    {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,207 @@
+.aligned {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0;
+    border-bottom: 0.2cm;
+    border-bottom-color: rgba(0, 0, 0, 0.581);
+    border-bottom-style: solid;
+    background-color: rgba(60, 179, 114, 0.37);
+}
+
+span {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+    padding-left: 1cm;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 0px;
+    text-align: center;
+}
+
+
+.bookappointment {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 700px;
+    width: 100%;
+    background-color: rgba(60, 179, 114, 0.151)
+
+}
+
+.bookappointment1 {
+    background-image: url(Opacity_30.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookappointment2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookappointmentform
+{
+    height: 650px;
+    width: 500px;
+    padding:1cm;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0%;
+    border:2px solid;
+    padding-left:3cm;
+}
+
+.textt
+{
+    width: 7cm;
+    height: 0.5cm;
+}
+
+#h1meet
+{
+    font-size: 70px;
+}
+
+#bookappoinmnetbutton
+{
+    padding:0.3cm;
+    width: 5cm;
+    height: 1cm;
+    background-color:rgba(0, 0, 255, 0.381);
+    color: white;
+    margin-top: 0.7cm;
+    margin-left: 1cm;
+}
+
+#bookappoinmnetbutton:hover{
+    background-color:rgba(0, 0, 255, 0.724);
+    transition: all .4s ease-in-out;
+    width: 5.2cm;
+    height: 1.2cm;
+}
+
+.ourservices {
+    margin-left: 43%;
+    margin-top: 1cm;
+}
+
+h2 {
+
+    display: inline;
+    font-size: 30px;
+    ;
+
+}
+
+/*--------------------------------------------------------------
+# Doctors
+--------------------------------------------------------------*/
+.doctors {
+    background: #fff;
+  }
+  
+  .doctors .member {
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .doctors .member .pic {
+    overflow: hidden;
+    width: 150px;
+    height:120px;
+    border-radius: 50%;
+  }
+  
+  .doctors .member .pic img {
+    transition: ease-in-out 0.3s;
+  }
+  
+  .doctors .member:hover img {
+    transform: scale(1.1);
+  }
+  
+  .doctors .member .member-info {
+    padding-left: 30px;
+  }
+  
+  .doctors .member h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #2c4964;
+  }
+  
+  .doctors .member span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+  }
+  
+  .doctors .member span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #b2c8dd;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .doctors .member p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+  }
+  
+  .doctors .member .social {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .doctors .member .social a {
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    background: #a0bcd5;
+  }
+  
+  .doctors .member .social a i {
+    color: #fff;
+    font-size: 16px;
+    margin: 0 2px;
+  }
+  
+  .doctors .member .social a:hover {
+    background: #1977cc;
+  }
+  
+  .doctors .member .social a+a {
+    margin-left: 8px;
+  }
+
+
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}

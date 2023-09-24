@@ -1,0 +1,136 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background-color: #333;
+  color: black;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  text-align: center;
+}
+
+main {
+  /* width: 650px; */
+  margin: 0;
+  padding: 20px;
+  padding-left: 2cm;
+  background-color: rgba(60, 179, 114, 0.112);
+  font-size: medium;
+}
+
+section {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Reset default margins and paddings */
+
+
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Provide some spacing between sections */
+section {
+  margin-bottom: 20px;
+}
+
+/* Style the header */
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+/* Style the form section */
+#form-section {
+  padding: 20px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label,
+input,
+select,
+textarea {
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+form {
+  width: 500px;
+  height: 600px;
+}
+
+
+#form-section {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 700px;
+  width: 100%;
+}
+
+.requestform {
+  padding-left: 4cm;
+
+}
+
+#emergency-contact {
+  padding: 2cm;
+  background-color: rgba(60, 179, 114, 0.158);
+  width: 500px;
+  height: 500px;
+  margin: 0.5cm;
+  margin-top: 2cm;
+
+}
+
+.ambbutton {
+  background-color: red;
+}
+
+body {
+  font-family: 'Times New Roman';
+  font-weight: bolder;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+}
